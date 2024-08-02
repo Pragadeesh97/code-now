@@ -50,6 +50,8 @@ This tool provides a long-running code environment with isolated user workspaces
 
 Create Project Service, Orchestration Service and the Frontend Service is not part of the cluster. They can be run on local or any other instance.
 
+Runner service is running inside its dedicated pod in the Kubernetes cluster
+
 ## Tools, Libraries, and Technologies Used
 
 - **Node.js**
@@ -62,6 +64,7 @@ Create Project Service, Orchestration Service and the Frontend Service is not pa
 - **Socket.io**
 - **Express**
 - **Monaco Editor**
+- **S3** (for file storage)
 
 ## Learnings from the Project
 

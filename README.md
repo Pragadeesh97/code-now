@@ -96,6 +96,11 @@ Runner service is running inside its dedicated pod in the Kubernetes cluster
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
-
+Project creation request to Create project service running in local
+![alt text](image-6.png)
+Orchestration request is sent to the local service - Ingress, Service, Pod and created by this service
+![alt text](image-7.png)
+Websocket connection is established with the dedicated web socket server running inside the Dedicated pod in Kubernetes cluster
+![alt text](image-8.png)
 Video Recording - Demo
 https://www.loom.com/share/adba01d3fe0144afb550e34657a24bab
